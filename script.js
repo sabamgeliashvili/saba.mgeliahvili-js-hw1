@@ -3,14 +3,15 @@
 
 let  user = {
     firstname: 'ana',
-     age: 27,
+     age: 28,
    };
 
    let  user2 = {
     firstname: 'levani',
      age: 21,
    };
-   console.log('ana giorgize 7 wlit ufrosia');
+   let difference = user.age - user2.age  /////// or ///////  let difference = user2.age / 3
+   console.log("ana levanze", + difference + "wlit ufrosia");
    let checkUsertype = typeof user;
    console.log(typeof checkUsertype)
    
