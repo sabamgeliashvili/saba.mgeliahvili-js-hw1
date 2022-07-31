@@ -69,8 +69,10 @@ while (i < 4) {
 
 
 let numbers = [12,23,43,11,9,2,121,90];
-if (numbers > 31, numbers % 2 == 0); {
-    console.log('Element is greater than provided value and is EVEN');
-} if (numbers < 31, numbers % 2 == 1); { 
-    console.log('Element is less than provided value and is ODD');
+for(let i = 0 ; i < numbers.length ; i++) {
+    if(numbers[i] > 31 && numbers[i] % 2 == 0) {
+        console.log('element is greater than provided value and is even')
+    }else if(numbers[i] < 31 && numbers){
+        console.log('element is less than provided value and is odd')
+    }
 }
